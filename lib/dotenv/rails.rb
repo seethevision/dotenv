@@ -32,7 +32,7 @@ end
 module Dotenv
   # Dotenv Railtie for using Dotenv to load environment from a file into
   # Rails applications
-  class Railtie < Rails::Railtie
+  class Railtie < ::Rails::Railtie
     # Public: Load dotenv
     #
     # This will get called during the `before_configuration` callback, but you
